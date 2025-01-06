@@ -27,6 +27,7 @@ header{
     width: 100%;
     height: 400px;
     border-radius: 13px;
+    margin-left: 8px;
 }
 
 .photo_section_1{
@@ -43,6 +44,7 @@ header{
     width: 700px;
     height: 400px;
     border-radius: 13px;
+    margin-right: 8px;
 }
 
 nav{
@@ -81,6 +83,19 @@ nav{
     font-size: 18px;
 }
 
+.main_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.lego{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 @media screen and (max-width: 540px){
 
@@ -100,6 +115,7 @@ nav{
         width: 100%;
         height: 400px;
         border-radius: 13px;
+        margin-right: 8px;
     }
 
     .section_2{
@@ -108,6 +124,7 @@ nav{
         width: 100%;
         height: 400px;
         border-radius: 13px;
+        margin-left: 8px;
     }
 
     .photo_section_1{
@@ -125,11 +142,18 @@ nav{
         width: 100%;
         height: 300px;
         border-radius: 13px;
-        margin: 0 8px;
+        margin:  -14px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .lego{
+        max-width: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
 
